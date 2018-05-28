@@ -1,0 +1,89 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="rozsuwane_menu.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Fjalla+One|Gloria+Hallelujah|Indie+Flower|Oswald|Pangolin|Playfair+Display|Roboto+Slab|Skranji|Titan+One" rel="stylesheet">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src = "tropper.js"></script>
+  <style>
+body, html {
+    height: 100%;
+    background-color: black;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("img/planet.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    
+    background-size: cover;
+}
+.text-block {
+    position: absolute;
+    bottom: 80px;
+    right: 80px;
+    background-color: black;
+    color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+  </style>
+</head>
+<body>
+        <div class = "nav-top">
+                <div id="menutext">MENU<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span></div>
+            </div>
+    <div id="myNav" class="powloka">
+        <a href="javascript:void(0)" class="zamknijBtn" onclick="closeNav()">&times;</a>
+        <div class="powloka-kontent">
+            <center>
+                <a href="glowna.html">
+                    <div class="poz"><img class="zdj" src="img/home.png" />
+                        <div id="text4">Strona Główna</div>
+                    </div>
+                </a>
+            </center>
+            <center>
+                <a href="uklad.html">
+                    <div class="poz"><img class="zdj" src="img/sun.png" />
+                        <div id="text4">Układ Słoneczny</div>
+                    </div>
+                </a>
+            </center>
+            <center>
+                <a href="info.html">
+                    <div class="poz"><img class="zdj" src="img/tele.png" />
+                        <div id="text4">Mikołaj Kopernik</div>
+                    </div>
+                </a>
+            </center>
+
+        </div>
+    </div>
+   <div class="bg">
+        <div class="text-block"> 
+                <h2 style="font-size:36px;">Odkrywaj</h2>
+                <p style="font-size:28px;">Nie bój się poznawać to co nowe</p>
+              </div>
+   </div>
+
+<script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+
+    </script>
+</body>
+</body>
+</html>

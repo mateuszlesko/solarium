@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8"/>
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Fjalla+One|Gloria+Hallelujah|Indie+Flower|Oswald|Pangolin|Playfair+Display|Roboto+Slab|Skranji|Titan+One" rel="stylesheet">
+    <!--JQuery-->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <!-------------->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="rozsuwane_menu.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <!--[if IE 7]><link rel="stylesheet" href="css/" + font.fontname + "-ie7.css"><![endif]-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+
+<body>
+        <div class = "nav-top">
+                <div id="menutext">MENU<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span></div>
+            </div>
+    <div id="myNav" class="powloka">
+        <a href="javascript:void(0)" class="zamknijBtn" onclick="closeNav()">&times;</a>
+        <div class="powloka-kontent">
+            <center>
+                <a href="glowna.html">
+                    <div class="poz"><img class="zdj" src="img/home.png" />
+                        <div id="text4">Strona Główna</div>
+                    </div>
+                </a>
+            </center>
+            <center>
+                <a href="uklad.html">
+                    <div class="poz"><img class="zdj" src="img/sun.png" />
+                        <div id="text4">Układ Słoneczny</div>
+                    </div>
+                </a>
+            </center>
+            <center>
+                <a href="info.html">
+                    <div class="poz"><img class="zdj" src="img/tele.png" />
+                        <div id="text4">Mikołaj Kopernik</div>
+                    </div>
+                </a>
+            </center>
+
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="tytul">Mikołaj Kopernik</div>
+        <div class="galeria">
+            <img class="photo" src="img/mikolaj.png" alt=""><br>
+            <center>Portret z Sali Mieszczańskiej w Ratuszu Staromiejskim w Toruniu</center>
+            <img class="photo" src="img/mikolajO.jpg" alt=""><br>
+            <center>Pomnik Mikołaja Kopernika. Olsztyn, stolica województwa Warmińsko-Mazurskiego</center>
+
+
+        </div>
+        <div class="text3"><br> Mikołaj Kopernik urodził się 19 lutego 1473 roku w Toruniu, zmarł przed 21 maja 1543 roku we Fromborku. Był polskim astronomem oraz autorem dzieła "O obrotach sfer niebieskich", która szczegółowo przedstawiała heliocentryczną wizję wszechświata. Mówią, że teoria heliocentryzmu pojawiła się na długo przed przyjściem Mikołaja Kopernika na świat, w starożytnej Grecji. Pomimo tego to jednak jego dzieło wywołało prawdziwy przełom i była to jedna z największych rewolucji naukowych od czasów starożytnych. Był nie tylko wybitnym astronomem ale również lekarzem oraz tłumaczem. Odnajdywał się również w takich dziedzinach jak ekonomia, matematyka, prawo, astrologia czy chociażby strategia wojskowa. Lecz to właśnie astronomia była jego specjalnością.<br><br>
+            <div id="niewiem">Heliocentryzm:</div>Heliocentryzm (gr. ἡλιος helios – słońce, κέντρον kentron – centrum) – teoria budowy Układu Słonecznego, według której w wersji historycznej Słońce znajduje się w środku Wszechświata, zaś w jego współczesnym wydaniu w centrum Układu Słonecznego jest Słońce, a wszystkie planety, łącznie z Ziemią, je obiegają.<br>
+            
+            <center><br><iframe width="500" height="250" src="scena1.html" ></iframe></center><br>
+            <p style="font-size:12px;">Symulacja teorii Heliocentrycznej</p>
+            <div id="niewiem">Edukacja:</div> W latach od 1491 do 1495 podejmował on naukę na Akademii Krakowskiej, która w tamtych czasach była uważana za jeden z najlepszych ośrodków kształcenia w dziedzinie astronomii. Po ukończeniu nauki na Akademii Krakowskiej, w 1496 roku rozpoczął studia na Uniwersytecie Bolońskim z zakresu prawa. W roku 1501 kształcił się w dziedzinie medycyny na uniwersytecie w Padwie. Kilka lat później uzyskał on tytuł doktora w zakresie prawa kanonicznego.<br><br>
+        </div><br>
+
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+
+    </script>
+</body>
+
+</html>
